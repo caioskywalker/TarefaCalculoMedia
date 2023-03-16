@@ -8,38 +8,38 @@ package Boletim;
  */
 public class Notas {
 	
-	int nota1; 
-	int nota2; 
-	int nota3; 
-	int nota4;
+	double nota1; 
+	double nota2; 
+	double nota3; 
+	double nota4;
 	
 	
-	public int getNota1() {
+	public double getNota1() {
 		return nota1;
 	}
-	public void setNota1(int nota1) {
+	public void setNota1(double nota1) {
 		this.nota1 = nota1;
 	}
-	public int getNota2() {
+	public double getNota2() {
 		return nota2;
 	}
-	public void setNota2(int nota2) {
+	public void setNota2(double nota2) {
 		this.nota2 = nota2;
 	}
-	public int getNota3() {
+	public double getNota3() {
 		return nota3;
 	}
-	public void setNota3(int nota3) {
+	public void setNota3(double nota3) {
 		this.nota3 = nota3;
 	}
-	public int getNota4() {
+	public double getNota4() {
 		return nota4;
 	}
-	public void setNota4(int nota4) {
+	public void setNota4(double nota4) {
 		this.nota4 = nota4;
 	}
 	
-	public void todasNotas(int nota1, int nota2, int nota3, int nota4 ) {
+	public void todasNotas(double nota1, double nota2, double nota3, double nota4 ) {
 		this.nota1 = nota1;
 		this.nota2 = nota2;
 		this.nota3 = nota3;
